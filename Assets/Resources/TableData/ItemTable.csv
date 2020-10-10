@@ -1,0 +1,5 @@
+index,itemName,plusHp,plusMp,plusAttack,plusDefense
+0,Consumtion_Apple,10,10,0,0
+1,Consumtion_hp,100,0,0,0
+2,Consumtion_Meat,50,0,0,0
+3,Consumtion_mp,0,100,0,0

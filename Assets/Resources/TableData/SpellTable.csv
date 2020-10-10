@@ -1,0 +1,6 @@
+index,itemName,plusHp,plusMp,plusAttack,plusDefense
+0,Spell_Fantasy,0,0,4,0
+1,Spell_Fire,0,0,3,0
+2,Spell_Frost,0,0,2,0
+3,Spell_Holly,0,0,1,0
+4,Spell_Weapon,0,0,2,0

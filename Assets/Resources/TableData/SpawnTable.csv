@@ -1,0 +1,7 @@
+Index,SceneName,posX,posY,posZ,spawnMonster,spawnCount
+0,Stage1,-1.4,0,34.36,WerewolfPBRDefault,3
+1,Stage1,5.98,0,34.36,RatAssassinPBRDefault,5
+2,Stage2,-13.6,0,18.5,RatAssassinPBRDefault,4
+3,Stage2,-15.2,0,0.5,RatAssassinPBRMaskTint,4
+4,Stage2,11.9,0,-7,LizardWarriorPBRDefault,4
+5,Stage2,5.8,0,16.2,LizardWarriorPBRMaskTint,4
