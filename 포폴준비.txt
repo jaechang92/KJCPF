@@ -1,0 +1,39 @@
+8월 6일
+
+포폴 영상준비
+
+유니티 플레이 영상만들기 5~10분(포폴 기준)
+
+
+ppt 2장
+영상에 포함된 작업 내용
+앞으로 작업할 내용
+
+
+
+
+1장 ppt
+진행상황(크게,센터)
+
+내용
+
+2장 ppt
+예정상황(크게,센터)
+
+내용
+
+
+이펙트
+FX Mega Pack
+	Plasma 08 PS
+	Spark 01 PS 나눠서 사용 < 드롭 아이템
+
+	3D Beam 03 PS 포탈이펙트
+	3D Beam 02 PS 스킬메테오 이펙트 + Fire Ball PS + Glow 떨어질때 메테오 이펙트
+MonsterAi 수정
+Skill
+HitEffect
+Floating text
+ItemDrop
+Skill Animation
+QuestMenu

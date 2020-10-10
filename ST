@@ -1,0 +1,27 @@
+// 싱글톤
+// where : T의 제약조건
+// class : 참조형식을 의미
+// new는 매개변수가 없는 생성자를 의미
+
+public class SingleTon<T> where T : class, new()
+{
+    private static T inst = null;
+
+
+    public SingleTon()
+    {
+
+    }
+
+    public static T instance
+    {
+        get
+        {
+            if (inst == null)
+            {
+                inst = new T();
+            }
+            return inst;
+        }
+    }
+}
