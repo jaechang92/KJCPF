@@ -184,17 +184,30 @@ public class SceneControllManager : MonoBehaviour
                 if (strTmp[1] == "BossDragonRed")
                 {
                     GameManager.instance.boss = instanceObj;
+                    Monster monsterScript;
+                    if (instanceObj.GetComponent<Monster>() == null)
+                    {
+                        monsterScript = instanceObj.AddComponent<Monster>();
+                    }
+                    else
+                    {
+                        monsterScript = instanceObj.GetComponent<Monster>();
+                    }
+                    
+                    GameManager.instance.thisSceneMonsterList.Add(monsterScript);
                 }
 
                 switch (resourcePath)
                 {
                     case "MonsterData":
                         // 몬스터 폴링 시스템을 생성해준다.
-                        
+
 
                         //Monster mob = instanceObj.AddComponent<Monster>();
-                        
+
                         //GameManager.instance.thisSceneMonsterList.Add(mob);
+                        
+
 
                         break;
                     case "PlayerData":

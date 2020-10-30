@@ -12,7 +12,14 @@ public class Monster : MonoBehaviour
     private void Awake()
     {
         gameObject.AddComponent<NavMeshAgent>();
-        mobAI = gameObject.AddComponent<MonsterAI>();
+        if (GetComponent<MonsterAI>() == null)
+        {
+            mobAI = gameObject.AddComponent<MonsterAI>();
+        }
+        else
+        {
+            mobAI = GetComponent<MonsterAI>();
+        }
         animator = GetComponent<Animator>();
         animator.enabled = true;
     }

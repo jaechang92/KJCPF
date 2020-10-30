@@ -22,10 +22,10 @@ Blur캔버스에 메인켐 할당하기
 유저 정보 업데이트★
 오브젝트풀
 
-// 작업중
-씬에 있는 몬스터 스폰 포인트를 저장하기위해 테이블 세이브 로드
-만들고 있던중 씬이름으로 로드를 불러오려고 씬이름을 가져오는중
-플레이 하지 않고 씬이름을 가져오려고 시도중
+// 현재 작업중
+보스몬스터 HP/UI 구성중
+보스몬스터 전투 구현
+UI-BossMobInfo 작업중
 
 UISlot 163번째줄
 유저 데이터 스왑 리셋	 TakeEquipment(TableManager.instance.FindItemTable(first.Icon.sprite.name), true);

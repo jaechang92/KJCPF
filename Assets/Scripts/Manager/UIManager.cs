@@ -50,6 +50,7 @@ public class UIManager : MonoBehaviour
     
     public List<Text> textPool;
     public List<MobInfoTag> tagPool;
+    //public 
     public Image expBar;
     public Animator LvUpText;
     public CrossHairDistanceToObject CHDTO;
