@@ -13,7 +13,7 @@ public class MonsterRun : StateMachineBehaviour
         {
             monsterAI = animator.GetComponent<MonsterAI>();
         }
-        GameManager.instance.nowTraceMonsterList.Add(monsterAI);
+        
         monsterAI.agent.isStopped = false;
     }
 

@@ -19,6 +19,8 @@ public class SoundManager : MonoBehaviour
 
     public AudioSource audioSource;
 
+    public string nextSoundSourceName = null;
+
     private void Awake()
     {
         if (instance == null)
@@ -48,6 +50,7 @@ public class SoundManager : MonoBehaviour
     {
         audioSource.clip = mySoundKeyValue(name);
         audioSource.Play();
+        StartCoroutine(CoSlowUpVolume());
     }
 
     public AudioClip mySoundKeyValue(string key)
@@ -62,5 +65,41 @@ public class SoundManager : MonoBehaviour
         return null;
     }
 
+    public void SlowMute()
+    {
+        StartCoroutine(CoSlowMute());
+    }
+
+    public IEnumerator CoSlowMute()
+    {
+        float originVolume = audioSource.volume;
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= 0.01f;
+            yield return new WaitForSeconds(0.1f);
+        }
+        audioSource.Stop();
+        audioSource.volume = originVolume;
+        if (nextSoundSourceName != null)
+        {
+            BGMStart(nextSoundSourceName);
+            nextSoundSourceName = null;
+        }
+
+    }
+
+    public IEnumerator CoSlowUpVolume()
+    {
+        float originVolume = audioSource.volume;
+        audioSource.volume = 0;
+        while (audioSource.volume < originVolume)
+        {
+            audioSource.volume += 0.01f;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        audioSource.volume = originVolume;
+
+    }
     
 }

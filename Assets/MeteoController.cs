@@ -47,6 +47,7 @@ public class MeteoController : MonoBehaviour
     {
         groundPos.x = GameManager.instance.player.transform.position.x + GameManager.instance.player.transform.forward.x * 20;
         groundPos.z = GameManager.instance.player.transform.position.z + GameManager.instance.player.transform.forward.z * 20;
+        groundPos.y = GameManager.instance.player.transform.position.y;
     }
 
     private void OnDisable()

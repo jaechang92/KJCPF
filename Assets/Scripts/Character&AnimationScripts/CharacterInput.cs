@@ -157,6 +157,11 @@ void PressKey()
             GameManager.instance.GetItem();
         }
 
+        if (Input.GetKeyDown(KeyCode.X) && GameManager.instance.ClosedCrystal)
+        {
+            GameManager.instance.ClosedCrystal.Action();
+        }
+
     }
 
 

@@ -13,6 +13,7 @@ public class MonsterTaunting : StateMachineBehaviour
         {
             monsterAI = animator.GetComponent<MonsterAI>();
         }
+        GameManager.instance.nowTraceMonsterList.Add(monsterAI);
         monsterAI.agent.isStopped = true;
     }
 

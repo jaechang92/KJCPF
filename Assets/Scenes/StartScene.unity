@@ -5121,6 +5121,7 @@ MonoBehaviour:
   InteractionObejctList: []
   Interaction: {fileID: 0}
   ClosedPortal: {fileID: 0}
+  ClosedCrystal: {fileID: 0}
   ClosedItem: {fileID: 0}
   userStats: {fileID: 205165427}
   LoadingCanvas: {fileID: 104000958}
@@ -35948,7 +35949,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.366
+  m_Volume: 0.209
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -36056,6 +36057,7 @@ MonoBehaviour:
   - key: SwordSound_03
     value: {fileID: 8300000, guid: a1cf5274c5c68e94c9f1ad1388857a58, type: 3}
   audioSource: {fileID: 0}
+  nextSoundSourceName: 
 --- !u!1 &1953565334
 GameObject:
   m_ObjectHideFlags: 0

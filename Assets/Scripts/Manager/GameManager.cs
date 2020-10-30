@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour
     public List<InteractionObejct> InteractionObejctList;
     public InteractionObejct Interaction;
     public PortalControl ClosedPortal;
+    public Crystal ClosedCrystal;
     public CheckDistance ClosedItem;
     
     public Stats userStats;

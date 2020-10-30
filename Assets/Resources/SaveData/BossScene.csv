@@ -1,108 +1,107 @@
 ﻿0,CliffBig01,CliffBig01,-135,-64.8,57.1,0,188.3807,0,1,1,1
 1,CliffBig02,CliffBig02,-127.1,-64.8,30.1,0,188.3807,0,1,1,1
-2,Monument01 (1),Monument01,-112.3,-129.1,411.9,0,249.103,0,0.7000002,1,0.7000002
+2,Monument01,Monument01,-112.3,-129.1,411.9,0,249.103,0,0.7000002,1,0.7000002
 3,CliffBig03,CliffBig03,55.5,-0.7,117.8,0,50.78077,0,1,1,1
 4,CliffEdge01,CliffEdge01,-4.2,0,110.1,0,0,0,1,1,1
 5,CliffEdge02,CliffEdge02,-112.5,0,-24.4,0,129.6997,0,1,1,1
 6,CliffEdge04,CliffEdge04,-19.45,2.73,-35.17,0,223.7409,0,1,1,1
 7,RockChunk01,RockChunk01,-4.17,-3.83,47.64,353.2006,167.4776,1.848036,1.456266,1.456261,1.456265
-8,WallLong01 (1),WallLong01,12.497,-0.49158,26.86,0,93.88855,0,1,1,1
+8,WallLong01,WallLong01,12.497,-0.49158,26.86,0,93.88855,0,1,1,1
 9,WallLong01,WallLong01,4.5,-0.49,26.63,0,93.88855,0,1,1,1
 10,RockChunk01,RockChunk01,-9.41,0.32,32.29,353.2006,312.0383,1.848038,1.290559,1.290553,1.34
 11,RockFloating02,RockFloating02,14,-12.4,29.55,0,14.40016,0,1,1,1
 12,WallLong01,WallLong01,-21.96,1.1484,30.428,0,90,0,1,1,1
-13,WallLong01 (2),WallLong01,-29.96,1.1484,30.428,0,90,0,1,1,1
-14,WallLong01 (3),WallLong01,-37.96,1.1484,30.428,0,90,0,1,1,1
-15,WallLong01 (4),WallLong01,-45.96,1.1484,30.428,0,90,0,1,1,1
-16,WallLong01 (5),WallLong01,-52.21,1.1484,30.428,0,90,0,1,1,1
-17,WallLong01 (6),WallLong01,-51.46,1.1484,38.428,0,180,0,1,1,1
-18,WallLong01 (7),WallLong01,-13.96,1.1484,30.428,0,0,0,1,1,1
-19,WallLong01 (8),WallLong01,-13.87,1.1484,69.01,0,270,0,1,1,1
-20,WallLong01 (9),WallLong01,-21.87,1.1484,69.01,0,270,0,1,1,1
-21,WallLong01 (10),WallLong01,-13.94333,1.1484,53.01033,0,0,0,1,1,1
-22,WallCorner01 (1),WallCorner01,-51.46,1.1484,30.428,0,90,0,1,1,1
-23,WallCorner01 (2),WallCorner01,-13.87,1.1484,69.00999,0,270,0,1,1,1
-24,WallLong01 (11),WallLong01,-13.87,1.1484,61.01,0,0,0,1,1,1
+13,WallLong01,WallLong01,-29.96,1.1484,30.428,0,90,0,1,1,1
+14,WallLong01,WallLong01,-37.96,1.1484,30.428,0,90,0,1,1,1
+15,WallLong01,WallLong01,-45.96,1.1484,30.428,0,90,0,1,1,1
+16,WallLong01,WallLong01,-52.21,1.1484,30.428,0,90,0,1,1,1
+17,WallLong01,WallLong01,-51.46,1.1484,38.428,0,180,0,1,1,1
+18,WallLong01,WallLong01,-13.96,1.1484,30.428,0,0,0,1,1,1
+19,WallLong01,WallLong01,-13.87,1.1484,69.01,0,270,0,1,1,1
+20,WallLong01,WallLong01,-21.87,1.1484,69.01,0,270,0,1,1,1
+21,WallLong01,WallLong01,-13.94333,1.1484,53.01033,0,0,0,1,1,1
+22,WallCorner01,WallCorner01,-51.46,1.1484,30.428,0,90,0,1,1,1
+23,WallCorner01,WallCorner01,-13.87,1.1484,69.00999,0,270,0,1,1,1
+24,WallLong01,WallLong01,-13.87,1.1484,61.01,0,0,0,1,1,1
 25,WallCorner01,WallCorner01,-13.96,1.1484,30.428,0,0,0,1,1,1
-26,FloorCircular02 (1),FloorCircular02,0,0,0,0,0,0,1,1,1
-27,FloorCircular02 (2),FloorCircular02,0,0,0,0,90,0,1,1,1
-28,FloorCircular02 (3),FloorCircular02,0,0,0,0,180,0,1,1,1
-29,FloorCircular02 (4),FloorCircular02,0,0,0,0,270,0,1,1,1
+26,FloorCircular02,FloorCircular02,0,0,0,0,0,0,1,1,1
+27,FloorCircular02,FloorCircular02,0,0,0,0,90,0,1,1,1
+28,FloorCircular02,FloorCircular02,0,0,0,0,180,0,1,1,1
+29,FloorCircular02,FloorCircular02,0,0,0,0,270,0,1,1,1
 30,FloorCircular03,FloorCircular03,0,-0.33,0,0,0,0,1,1,1
-31,FloorCircular03 (1),FloorCircular03,0,-0.33,0,0,60,0,1,1,1
-32,FloorCircular03 (2),FloorCircular03,0,-0.33,0,0,120,0,1,1,1
-33,FloorCircular03 (3),FloorCircular03,0,-0.33,0,0,180,0,1,1,1
-34,FloorCircular03 (4),FloorCircular03,0,-0.33,0,0,240,0,1,1,1
-35,FloorCircular03 (5),FloorCircular03,0,-0.33,0,0,300,0,1,1,1
-36,PlatformEdge01 (2),PlatformEdge01,-8.134732,1.27,-18.27091,0,294,0,3,3,3
-37,PlatformEdge01,PlatformEdge01,-20,1.6,0,0,0,0,3,3,3
-38,PlatformEdge01 (1),PlatformEdge01,-16.77341,1.6,-10.89278,0,327,0,3,3,3
-39,PlatformEdge01 (3),PlatformEdge01,-8.134732,1.6,-18.27091,0,294,0,3,3,3
-40,PlatformEdge01 (4),PlatformEdge01,3.128689,1.6,-19.75377,0,261,0,3,3,3
-41,PlatformEdge01 (5),PlatformEdge01,13.38261,1.6,-14.8629,0,228,0,3,3,3
-42,PlatformEdge01 (6),PlatformEdge01,19.31852,1.6,-5.176384,0,195,0,3,3,3
-43,PlatformEdge01 (8),PlatformEdge01,19.02113,1.6,6.180335,0,162,0,3,3,3
-44,PlatformEdge01 (7),PlatformEdge01,12.58641,1.6,15.54292,0,129,0,3,3,3
-45,PlatformEdge01 (9),PlatformEdge01,-9.079801,1.6,17.82014,0,63.00003,0,3,3,3
-46,PlatformEdge01 (10),PlatformEdge01,-17.32051,1.6,10,0,30.00002,0,3,3,3
-47,PlatformDetail (1),PlatformDetail,-2.67,1.39,21.32,0,264.5,0,3,3,3
-48,PlatformDetail,PlatformDetail,6.66,1.98,20.37,0,286.6985,0,3,3,3
-49,FloorCircular01,FloorCircular01,0,0,0,0,0,0,1,0.1,1
-50,StairsWide01 (1),StairsWide01,-1.24,-0.54,29.89,0,90,0,2,0.8,1.64432
-51,FloorCircular01 (1),FloorCircular01,2.23,2.67,34.82,0,0,0,0.6,0.1,0.6
-52,Monument01,Monument01,-50.9,-7.2,46.41,0,179.3789,0,0.7,1,0.7
-53,StairsWide01 (2),StairsWide01,-14.65,2.51,40.5,0,25.84068,0,2.7772,0.8,0.8
-54,FloorCircular01 (2),FloorCircular01,-23.975,5.532,47.502,0,0,0,1.3,0.1,1.3
-55,PlatformLong,PlatformLong,-32.56,5.26,49.36,0,0,0,10,1,5
-56,FloorPanel2x2,FloorPanel2x2,-33.88,5.32,42.7,0,0,0,1,1,1
-57,FloorCircular02,FloorCircular02,-21.41,5.49,48.9,0,347.8,0,1,1,1
-58,PlatformEdge01 (1),PlatformEdge01,-66.142,20.71,10.36,0,0,0,3,3,3
-59,PlatformEdge01 (2),PlatformEdge01,-66.142,20.71,22.36,0,0,0,3,3,3
-60,PlatformEdge01 (3),PlatformEdge01,-66.142,20.71,34.36,0,0,0,3,3,3
-61,PlatformEdge01 (4),PlatformEdge01,-66.142,20.71,61.79,0,0,0,3,3,3
-62,PlatformEdge01 (5),PlatformEdge01,-66.142,20.71,73.79,0,0,0,3,3,3
-63,PlatformEdge01 (6),PlatformEdge01,-66.142,20.71,85.79,0,0,0,3,3,3
-64,PlatformEdge01 (7),PlatformEdge01,-66.142,20.71,97.79,0,0,0,3,3,3
-65,Pillar (1),Pillar,-65.92,19.264,104.997,0,0,0,2,2,2
-66,PlatformEdge01 (8),PlatformEdge01,-73.12,20.71,105.56,0,90,0,3,3,3
-67,PlatformEdge01 (9),PlatformEdge01,-85.12,20.71,105.56,0,90,0,3,3,3
-68,PlatformEdge01 (10),PlatformEdge01,-97.12,20.71,105.56,0,90,0,3,3,3
-69,PlatformEdge01 (11),PlatformEdge01,-109.12,20.71,105.56,0,90,0,3,3,3
-70,PlatformEdge01 (12),PlatformEdge01,-121.12,20.71,105.56,0,90,0,3,3,3
-71,PlatformEdge01 (13),PlatformEdge01,-133.12,20.71,105.56,0,90,0,3,3,3
-72,PlatformEdge01 (14),PlatformEdge01,-145.12,20.71,105.56,0,90,0,3,3,3
-73,PlatformEdge01 (15),PlatformEdge01,-157.12,20.71,105.56,0,90,0,3,3,3
-74,PlatformEdge01 (16),PlatformEdge01,-169.12,20.71,105.56,0,90,0,3,3,3
-75,Pillar (2),Pillar,-175.67,19.264,105.337,0,0,0,2,2,2
-76,PlatformEdge01 (17),PlatformEdge01,-176.09,20.71,98.14,0,0,0,3,3,3
-77,PlatformEdge01 (18),PlatformEdge01,-176.09,20.71,86.14,0,0,0,3,3,3
-78,PlatformEdge01 (19),PlatformEdge01,-176.09,20.71,74.14,0,0,0,3,3,3
-79,PlatformEdge01 (20),PlatformEdge01,-176.09,20.71,62.14,0,0,0,3,3,3
-80,PlatformEdge01 (21),PlatformEdge01,-176.09,20.71,50.14,0,0,0,3,3,3
-81,PlatformEdge01 (22),PlatformEdge01,-176.09,20.71,38.14,0,0,0,3,3,3
-82,PlatformEdge01 (23),PlatformEdge01,-176.09,20.71,26.14,0,0,0,3,3,3
-83,PlatformEdge01 (24),PlatformEdge01,-176.09,20.71,14.14,0,0,0,3,3,3
-84,PlatformEdge01 (25),PlatformEdge01,-176.09,20.71,2.100002,0,0,0,3,3,3
-85,PlatformEdge01 (27),PlatformEdge01,-73.10001,20.71,-7.6,0,90,0,3,3,3
-86,PlatformEdge01 (28),PlatformEdge01,-85.10001,20.71,-7.6,0,90,0,3,3,3
-87,PlatformEdge01 (29),PlatformEdge01,-97.10001,20.71,-7.6,0,90,0,3,3,3
-88,PlatformEdge01 (30),PlatformEdge01,-109.1,20.71,-7.6,0,90,0,3,3,3
-89,PlatformEdge01 (31),PlatformEdge01,-121.1,20.71,-7.6,0,90,0,3,3,3
-90,PlatformEdge01 (32),PlatformEdge01,-133.1,20.71,-7.6,0,90,0,3,3,3
-91,PlatformEdge01 (33),PlatformEdge01,-145.1,20.71,-7.6,0,90,0,3,3,3
-92,PlatformEdge01 (34),PlatformEdge01,-157.1,20.71,-7.6,0,90,0,3,3,3
-93,PlatformEdge01 (35),PlatformEdge01,-169.1,20.71,-7.6,0,90,0,3,3,3
-94,Pillar (3),Pillar,-174.91,19.264,-6.3,0,0,0,2,2,2
-95,PlatformLong (1),PlatformLong,-125.4,19.55,46.43,0,0,0,30,1,15
-96,Pillar,Pillar,-65.92,19.264,-8.800001,0,0,0,2,2,2
-97,FloorPanel2x2 (1),FloorPanel2x2,12.6,2.67,37.85,0,0,0,1,1,1
-98,FloorPanel2x2,FloorPanel2x2,20.6,2.67,37.85,0,0,0,1,1,1
-99,FloorPanel2x2 (2),FloorPanel2x2,20.6,2.67,29.85,0,0,0,1,1,1
-100,FloorPanel2x2 (3),FloorPanel2x2,12.6,2.67,29.85,0,0,0,1,1,1
-101,FloorPanel2x2 (1),FloorPanel2x2,-3.4,2.67,37.85,0,0,0,1,1,1
-102,FloorPanel2x2,FloorPanel2x2,4.6,2.67,37.85,0,0,0,1,1,1
-103,FloorPanel2x2 (2),FloorPanel2x2,4.6,2.67,29.85,0,0,0,1,1,1
-104,FloorPanel2x2 (3),FloorPanel2x2,-3.4,2.67,29.85,0,0,0,1,1,1
-105,TeleportCheckpoint,TeleportCheckpoint,-39.79,6.1339,44.609,0,0,0,1,4.8657,13.777
-106,PlatformEdge01,PlatformEdge01,-66.142,20.71,-1.64,0,0,0,3,3,3
+31,FloorCircular03,FloorCircular03,0,-0.33,0,0,60,0,1,1,1
+32,FloorCircular03,FloorCircular03,0,-0.33,0,0,120,0,1,1,1
+33,FloorCircular03,FloorCircular03,0,-0.33,0,0,180,0,1,1,1
+34,FloorCircular03,FloorCircular03,0,-0.33,0,0,240,0,1,1,1
+35,FloorCircular03,FloorCircular03,0,-0.33,0,0,300,0,1,1,1
+36,PlatformEdge01,PlatformEdge01,-20,1.6,0,0,0,0,3,3,3
+37,PlatformEdge01,PlatformEdge01,-16.77341,1.6,-10.89278,0,327,0,3,3,3
+38,PlatformEdge01,PlatformEdge01,-8.134732,1.6,-18.27091,0,294,0,3,3,3
+39,PlatformEdge01,PlatformEdge01,3.128689,1.6,-19.75377,0,261,0,3,3,3
+40,PlatformEdge01,PlatformEdge01,13.38261,1.6,-14.8629,0,228,0,3,3,3
+41,PlatformEdge01,PlatformEdge01,19.31852,1.6,-5.176384,0,195,0,3,3,3
+42,PlatformEdge01,PlatformEdge01,19.02113,1.6,6.180335,0,162,0,3,3,3
+43,PlatformEdge01,PlatformEdge01,12.58641,1.6,15.54292,0,129,0,3,3,3
+44,PlatformEdge01,PlatformEdge01,-9.079801,1.6,17.82014,0,63.00003,0,3,3,3
+45,PlatformEdge01,PlatformEdge01,-17.32051,1.6,10,0,30.00002,0,3,3,3
+46,PlatformDetail,PlatformDetail,-2.67,1.39,21.32,0,264.5,0,3,3,3
+47,PlatformDetail,PlatformDetail,6.66,1.98,20.37,0,286.6985,0,3,3,3
+48,FloorCircular01,FloorCircular01,0,0,0,0,0,0,1,0.1,1
+49,StairsWide01,StairsWide01,-1.24,-0.54,29.89,0,90,0,2,0.8,1.64432
+50,FloorCircular01,FloorCircular01,2.23,2.67,34.82,0,0,0,0.6,0.1,0.6
+51,Monument01,Monument01,-50.9,-7.2,46.41,0,179.3789,0,0.7,1,0.7
+52,StairsWide01,StairsWide01,-14.65,2.51,40.5,0,25.84068,0,2.7772,0.8,0.8
+53,FloorCircular01,FloorCircular01,-23.975,5.532,47.502,0,0,0,1.3,0.1,1.3
+54,PlatformLong,PlatformLong,-32.56,5.26,49.36,0,0,0,10,1,5
+55,FloorPanel2x2,FloorPanel2x2,-33.88,5.32,42.7,0,0,0,1,1,1
+56,FloorCircular02,FloorCircular02,-21.41,5.49,48.9,0,347.8,0,1,1,1
+57,PlatformEdge01,PlatformEdge01,-66.142,20.71,10.36,0,0,0,3,3,3
+58,PlatformEdge01,PlatformEdge01,-66.142,20.71,22.36,0,0,0,3,3,3
+59,PlatformEdge01,PlatformEdge01,-66.142,20.71,34.36,0,0,0,3,3,3
+60,PlatformEdge01,PlatformEdge01,-66.142,20.71,61.79,0,0,0,3,3,3
+61,PlatformEdge01,PlatformEdge01,-66.142,20.71,73.79,0,0,0,3,3,3
+62,PlatformEdge01,PlatformEdge01,-66.142,20.71,85.79,0,0,0,3,3,3
+63,PlatformEdge01,PlatformEdge01,-66.142,20.71,97.79,0,0,0,3,3,3
+64,Pillar,Pillar,-65.92,19.264,104.997,0,0,0,2,2,2
+65,PlatformEdge01,PlatformEdge01,-73.12,20.71,105.56,0,90,0,3,3,3
+66,PlatformEdge01,PlatformEdge01,-85.12,20.71,105.56,0,90,0,3,3,3
+67,PlatformEdge01,PlatformEdge01,-97.12,20.71,105.56,0,90,0,3,3,3
+68,PlatformEdge01,PlatformEdge01,-109.12,20.71,105.56,0,90,0,3,3,3
+69,PlatformEdge01,PlatformEdge01,-121.12,20.71,105.56,0,90,0,3,3,3
+70,PlatformEdge01,PlatformEdge01,-133.12,20.71,105.56,0,90,0,3,3,3
+71,PlatformEdge01,PlatformEdge01,-145.12,20.71,105.56,0,90,0,3,3,3
+72,PlatformEdge01,PlatformEdge01,-157.12,20.71,105.56,0,90,0,3,3,3
+73,PlatformEdge01,PlatformEdge01,-169.12,20.71,105.56,0,90,0,3,3,3
+74,Pillar,Pillar,-175.67,19.264,105.337,0,0,0,2,2,2
+75,PlatformEdge01,PlatformEdge01,-176.09,20.71,98.14,0,0,0,3,3,3
+76,PlatformEdge01,PlatformEdge01,-176.09,20.71,86.14,0,0,0,3,3,3
+77,PlatformEdge01,PlatformEdge01,-176.09,20.71,74.14,0,0,0,3,3,3
+78,PlatformEdge01,PlatformEdge01,-176.09,20.71,62.14,0,0,0,3,3,3
+79,PlatformEdge01,PlatformEdge01,-176.09,20.71,50.14,0,0,0,3,3,3
+80,PlatformEdge01,PlatformEdge01,-176.09,20.71,38.14,0,0,0,3,3,3
+81,PlatformEdge01,PlatformEdge01,-176.09,20.71,26.14,0,0,0,3,3,3
+82,PlatformEdge01,PlatformEdge01,-176.09,20.71,14.14,0,0,0,3,3,3
+83,PlatformEdge01,PlatformEdge01,-176.09,20.71,2.100002,0,0,0,3,3,3
+84,PlatformEdge01,PlatformEdge01,-73.10001,20.71,-7.6,0,90,0,3,3,3
+85,PlatformEdge01,PlatformEdge01,-85.10001,20.71,-7.6,0,90,0,3,3,3
+86,PlatformEdge01,PlatformEdge01,-97.10001,20.71,-7.6,0,90,0,3,3,3
+87,PlatformEdge01,PlatformEdge01,-109.1,20.71,-7.6,0,90,0,3,3,3
+88,PlatformEdge01,PlatformEdge01,-121.1,20.71,-7.6,0,90,0,3,3,3
+89,PlatformEdge01,PlatformEdge01,-133.1,20.71,-7.6,0,90,0,3,3,3
+90,PlatformEdge01,PlatformEdge01,-145.1,20.71,-7.6,0,90,0,3,3,3
+91,PlatformEdge01,PlatformEdge01,-157.1,20.71,-7.6,0,90,0,3,3,3
+92,PlatformEdge01,PlatformEdge01,-169.1,20.71,-7.6,0,90,0,3,3,3
+93,Pillar,Pillar,-174.91,19.264,-6.3,0,0,0,2,2,2
+94,PlatformLong,PlatformLong,-125.4,19.55,46.43,0,0,0,30,1,15
+95,Pillar,Pillar,-65.92,19.264,-8.800001,0,0,0,2,2,2
+96,FloorPanel2x2,FloorPanel2x2,12.6,2.67,37.85,0,0,0,1,1,1
+97,FloorPanel2x2,FloorPanel2x2,20.6,2.67,37.85,0,0,0,1,1,1
+98,FloorPanel2x2,FloorPanel2x2,20.6,2.67,29.85,0,0,0,1,1,1
+99,FloorPanel2x2,FloorPanel2x2,12.6,2.67,29.85,0,0,0,1,1,1
+100,FloorPanel2x2,FloorPanel2x2,-3.4,2.67,37.85,0,0,0,1,1,1
+101,FloorPanel2x2,FloorPanel2x2,4.6,2.67,37.85,0,0,0,1,1,1
+102,FloorPanel2x2,FloorPanel2x2,4.6,2.67,29.85,0,0,0,1,1,1
+103,FloorPanel2x2,FloorPanel2x2,-3.4,2.67,29.85,0,0,0,1,1,1
+104,TeleportCheckpoint,TeleportCheckpoint,-39.79,6.1339,44.609,0,0,0,1,4.8657,13.777
+105,PlatformEdge01,PlatformEdge01,-66.142,20.71,-1.64,0,0,0,3,3,3
 

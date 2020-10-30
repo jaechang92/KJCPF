@@ -60,6 +60,9 @@ public class TimelineCheck : MonoBehaviour
             //GameManager.instance.player.transform.position = TeleportPosition.position;
             //GameManager.instance.player.agent.enabled = true;
             TeleportOnOff = true;
+
+            SoundManager.instance.SlowMute();
+            SoundManager.instance.nextSoundSourceName = "BattleBGM";
         }
     }
 
@@ -69,5 +72,7 @@ public class TimelineCheck : MonoBehaviour
         GameManager.instance.player.agent.enabled = true;
         GameManager.instance.mainCam.CamDistHeight(GameManager.instance.player.transform);
         TeleportOnOff = false;
+
+        
     }
 }

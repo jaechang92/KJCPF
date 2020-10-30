@@ -31,6 +31,10 @@ public class Monster : MonoBehaviour
 
     private void OnDisable()
     {
+        if (parentMonsterPoolingSystem == null)
+        {
+            return;
+        }
         parentMonsterPoolingSystem.Push(this);
         
     }
