@@ -54,6 +54,8 @@ public class UIManager : MonoBehaviour
     public Image expBar;
     public Animator LvUpText;
     public CrossHairDistanceToObject CHDTO;
+    public GameObject tutorial;
+    public List<GameObject> tutorialKey;
     // private------------------------------------
     int talkCount = 1;
     int i = 0;

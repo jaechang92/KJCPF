@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Manager\CinemachineController.cs" />
     <Compile Include="Assets\Scripts\Manager\EvenetManager.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\QuestManager.cs" />
     <Compile Include="Assets\Scripts\Manager\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\Manager\SceneControllManager.cs" />
     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
