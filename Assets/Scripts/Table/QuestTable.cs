@@ -122,6 +122,7 @@ public class QuestTable
         
         for (int i = 1; i < strInfo.Length; i++)
         {
+
             if (strInfo[i] != string.Empty)
             {
                 string[] strTmp = strInfo[i].Split(',');

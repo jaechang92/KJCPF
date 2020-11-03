@@ -63,6 +63,13 @@ public class Stats : MonoBehaviour
 
 
         uStats.MaxExp = TableManager.instance.userTable.userInfo.maxExp;
+
+        Debug.Log("---Stats---");
+        Debug.Log(TableManager.instance.RetrunUserTable().userInfo.hp);
+        Debug.Log(uStats.MaxHp);
+        Debug.Log(uStats.Hp);
+        Debug.Log("---Stats---");
+
     }
 
     private void Update()

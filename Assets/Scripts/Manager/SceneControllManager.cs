@@ -174,7 +174,7 @@ public class SceneControllManager : MonoBehaviour
                 Vector3 position = new Vector3(float.Parse(strTmp[3]), float.Parse(strTmp[4]), float.Parse(strTmp[5]));
                 
                 GameObject resource = Resources.Load<GameObject>(resourcePath +"/" + strTmp[2]);
-                Debug.Log(strTmp[2]);
+
                 GameObject instanceObj = Instantiate(resource, position, Quaternion.identity, obj.transform);
                 instanceObj.name = strTmp[2];
 

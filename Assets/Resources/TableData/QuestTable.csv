@@ -1,6 +1,8 @@
-﻿index,questName,questMobName,questMobModelName,questMobCount,NPCName,Description,MainDesciption,Reward,Bool,Func
-0,몬스터사냥,Werewolf,WerewolfPBRDefault,10,Beginner,우리 마을에 온걸 환영해. 나는 이마을의 훈련교관이지. 너에게 퀘스트를 줄께 mobName 몬스터를 mobCount 마리 사냥하고 돌아와줘. 보상으로는 10000골드를 줄꺼야.EOL,mobName 몬스터를 mobCount 마리 사냥하고 돌아와줘,10000_골드 500_exp,FALSE,
-1,LevelUpQuest,Werewolf,WerewolfPBRDefault,5,Beginner,몬스터를 사냥.EOL,,,FALSE,
-2,무기 가져오기,rpgpp_lt_box_wood_01,rpgpp_lt_box_wood_01,1,BeginnerTutorial,안녕 나는 튜토리얼 안내를 맡은 테스라고해. 내 옆에 있는 상자에 초보 유저들의 장비를 넣어뒀어. 상자를 클릭해서 가져와줘.EOL,테스가 상자를에 넣어둔 장비를 꺼내오시오,Equip_sword Equip_shield,FALSE,
-3,소비 아이템 사용,Consumtion_Apple,Consumtion_Apple,1,BeginnerTutorial,그럼 이제 이이템 사용을 배워보자. 사과를 하나 줬으니까 먹어봐.EOL,인벤토리에서 사과를 사용해보세요,300_exp,FALSE,Add Consumtion_Apple
-3,,,,0,BeginnerTutorial,마을로 이동시켜 줄께.EOL,,,FALSE,NextScene
+﻿index,questName,questMobName,questMobModelName,questMobCount,NPCName,Description,Dialogue,Reward,Bool,Func
+0,기본공격을 알려주지, , , ,떠돌이 상인,기본공격을 사용해보세요,"이보게 처음보는 얼굴이고만 카이퍼 대륙은 처음인가? \n
+내 도움이 필요해 보이는데 저기가서 허수아비를 때려보게",{exp}{100},FALSE,
+1,필살기를 알려주지, , , ,,,,,FALSE,
+2,위기는 기회?, , , ,,,,,FALSE,
+3,능력이 부족하면 템빨이지, , , ,,,,,FALSE,Add Consumtion_Apple
+3,"선의를 배풀면 보상이 따라온다!
+회복 아이템을 사용해보자", , , ,BeginnerTutorial,,,,FALSE,NextScene
