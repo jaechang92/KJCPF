@@ -118,6 +118,7 @@ public class UserInvenSlotInfo : MonoBehaviour
             {
                 questList.Remove(questList[i]);
                 UIManager.instance.qPool.ReMoveQuestWindow(_questInfo.questName);
+                
                 return;
             }
         }

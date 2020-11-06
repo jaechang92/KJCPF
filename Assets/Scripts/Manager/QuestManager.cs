@@ -110,6 +110,7 @@ public class QuestManager : MonoBehaviour
                 if (strTmp[i] == "EXP")
                 {
                     GameManager.instance.userStats.PlusExp(int.Parse(strTmp[i + 1]));
+                    UIManager.instance.SetUpExp();
                 }
             }
             

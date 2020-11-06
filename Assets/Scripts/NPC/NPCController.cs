@@ -142,35 +142,33 @@ public class NPCController : MonoBehaviour
         }
 
         //Debug.Log(TableManager.instance.questTable.useNameAndIndexDictionary[transform.name][questProgress].description);
-        // . 을 기준으로 문장을 다시 나눈다
-        tmp = infos[questProgress].description.Split('.');
+        // \n 을 기준으로 문장을 다시 나눈다
+        char[] chMark = { '\\', 'n' };
+        tmp = infos[questProgress].mainDescription.Split(chMark);
 
+        List<string> nQuestStringList = new List<string>();
+        for (int i = 0; i < tmp.Length; i++)
+        {
+            if (tmp[i] != string.Empty)
+            {
+                nQuestStringList.Add(tmp[i]);
+            }
+        }
+
+
+        Debug.Log(infos[questProgress].mainDescription);
         // 퀘스트 리스트에 없다면 퀘스트 추가
         if (GameManager.instance.userInvenSlotInfo.FindQuest(infos[questProgress].questName) == null)
         {
-            //GameManager.instance.userInvenSlotInfo.questList.Add(TableManager.instance.questTable.useNameAndIndexDictionary[transform.name][questProgress]);
-            Debug.Log(tmpIndex);
-            Debug.Log(tmp[tmpIndex]);
-            Debug.Log(tmp[tmpIndex + 1] == "EOL ");
-            if (tmp[tmpIndex+1] == "EOL ")
+            UIManager.instance.talkText.text = nQuestStringList[tmpIndex];
+
+            if (nQuestStringList.Count - 1 == tmpIndex)
             {
-                Debug.Log("마지막전 문장");
-                UIManager.instance.talkText.text = tmp[tmpIndex];
+                Debug.Log("마지막 줄");
                 UIManager.instance.acceptBtn.gameObject.SetActive(true);
-                tmpIndex = -1;
                 return;
             }
-            UIManager.instance.talkText.text = tmp[tmpIndex];
             tmpIndex++;
-            
-            //UIManager.instance.talkString = tmp;
-            //for (int i = 0; i < tmp.Length-1; i++)
-            //{
-            //    Debug.Log(i);
-            //    questString.Add(tmp[i]);
-            //}
-            
-            //UIManager.instance.talkText.text = TableManager.instance.questTable.useNameAndIndexDictionary[transform.name][questProgress].description;
         }
         else if(GameManager.instance.userInvenSlotInfo.FindQuest(infos[questProgress].questName).Value.checkClear != true)
         {
@@ -178,6 +176,7 @@ public class NPCController : MonoBehaviour
         }
         else
         {
+            
             GameManager.instance.userInvenSlotInfo.QuestClear(infos[questProgress]);
             UIManager.instance.chatText.SetText(infos[questProgress].reward + "획득");
             Rewards(infos[questProgress].reward);
@@ -186,8 +185,6 @@ public class NPCController : MonoBehaviour
             if (questProgress >= infos.Count)
             {
                 Debug.Log("더이상 다음 퀘스트가 없다");
-
-                
                 myBillboard.spriteRenderer.sprite = UIManager.instance.sprites[0];
             }
             else
@@ -264,33 +261,78 @@ public class NPCController : MonoBehaviour
 
 
     }
-
+    [SerializeField]
+    public Dictionary<string, string> keyValuePairs = new Dictionary<string, string>();
 
     public void Rewards(string str)
     {
+        // 띄어스기로 1차 나눠준다.
         string [] tmp = str.Split(' ');
+        string[] tmp2;
 
+        // 언더바(_)로 2차 나눠준다.
+        // 나뉜녀석들은 keyValue 값으로 저장한다.
+
+        List<string> tmpList = new List<string>();
         for (int i = 0; i < tmp.Length; i++)
         {
-            if(tmp[i].Contains("Equip"))
+            if (tmp[i] != string.Empty)
             {
-                GameManager.instance.userInvenSlotInfo.AddInvenList(tmp[i]);
-            }
-
-
-            string[] tmp2 = tmp[i].Split('_'); ;
-            if (tmp[i].Contains("골드"))
-            {
-                GameManager.instance.userStats.uStats.Gold += int.Parse(tmp2[0]);
-            }
-
-            if (tmp[i].Contains("exp"))
-            {
-                GameManager.instance.userStats.PlusExp(int.Parse(tmp2[0]));
-                //GameManager.instance.userStats.uStats.Exp += int.Parse(tmp2[0]);
-                UIManager.instance.SetUpExp();
+                tmp2 = tmp[i].Split('_');
+                for (int j = 0; j < tmp2.Length; j += 2)
+                {
+                    keyValuePairs.Add(tmp2[j], tmp2[j + 1]);
+                }
             }
         }
+
+        foreach (var item in keyValuePairs)
+        {
+            Debug.Log(item.Key);
+            Debug.Log(item.Value);
+        }
+
+        if(keyValuePairs.ContainsKey("exp"))
+        {
+            GameManager.instance.userStats.uStats.Exp += int.Parse(keyValuePairs["exp"]);
+            UIManager.instance.SetUpExp();
+        }
+
+        //if (keyValuePairs["gold"] != null)
+        //{
+        //    GameManager.instance.userStats.uStats.Gold += int.Parse(keyValuePairs["gold"]);
+        //}
+
+        //if (keyValuePairs["equip"] != null)
+        //{
+        //    GameManager.instance.userInvenSlotInfo.AddInvenList(keyValuePairs["equip"]);
+        //}
+
+
+        //for (int i = 0; i < tmp.Length; i++)
+        //{
+        //    if(tmp[i].Contains("Equip"))
+        //    {
+        //        GameManager.instance.userInvenSlotInfo.AddInvenList(tmp[i]);
+        //    }
+
+
+        //    string[] tmp2 = tmp[i].Split('_');
+        //    if (tmp[i].Contains("골드"))
+        //    {
+        //        GameManager.instance.userStats.uStats.Gold += int.Parse(tmp2[0]);
+        //    }
+
+        //    if (tmp[i].Contains("exp"))
+        //    {
+        //        GameManager.instance.userStats.PlusExp(int.Parse(tmp2[0]));
+        //        //GameManager.instance.userStats.uStats.Exp += int.Parse(tmp2[0]);
+        //        UIManager.instance.SetUpExp();
+        //    }
+        //}
+
+
+
 
 
     }

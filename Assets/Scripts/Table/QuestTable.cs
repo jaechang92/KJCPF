@@ -127,6 +127,12 @@ public class QuestTable
             {
                 string[] strTmp = strInfo[i].Split(',');
 
+                for (int q = 0; q < strTmp.Length; q++)
+                {
+                    Debug.Log(strTmp[q]);
+                }
+
+
                 QuestInfo tmp = new QuestInfo(strTmp[0], strTmp[1], strTmp[2], strTmp[3], strTmp[4], strTmp[5], strTmp[6], strTmp[7], strTmp[8], strTmp[9],strTmp[10]);
 
                 questList.Add(tmp);
