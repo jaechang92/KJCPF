@@ -137,12 +137,14 @@ public class FollowCam : MonoBehaviour
             {
                 disTmp = (int)Vector3.Distance(GameManager.instance.player.transform.position, hitInfo.point);
                 UIManager.instance.CHDTO.distance.text = disTmp.ToString() + "m";
+                GameManager.instance.rayHitTarget = hitInfo.collider.gameObject;
                 //Debug.Log(hitInfo.collider.gameObject.name);
                 //Debug.Log(Vector3.Distance(GameManager.instance.player.transform.position, hitInfo.point));
             }
             else
             {
                 UIManager.instance.CHDTO.distance.text = "";
+                GameManager.instance.rayHitTarget = null;
             }
 
             yield return WFEF;

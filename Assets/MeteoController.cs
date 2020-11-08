@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeteoController : MonoBehaviour
+public class MeteoController : EffectController
 {
 
     public GameObject effect;
 
-    public Vector3 groundPos;
+    //public Vector3 groundPos;
     public float fallSpeed;
 
     public float durationTime;
     private float currentTime;
     void Start()
     {
-        
+        transform.position = transform.position + Vector3.up * 30 + Vector3.right * 25;
     }
 
     public bool check = false;
@@ -43,12 +43,12 @@ public class MeteoController : MonoBehaviour
 
     }
 
-    public void SetGroundPos()
-    {
-        groundPos.x = GameManager.instance.player.transform.position.x + GameManager.instance.player.transform.forward.x * 20;
-        groundPos.z = GameManager.instance.player.transform.position.z + GameManager.instance.player.transform.forward.z * 20;
-        groundPos.y = GameManager.instance.player.transform.position.y;
-    }
+    //public void SetGroundPos()
+    //{
+    //    groundPos.x = GameManager.instance.player.transform.position.x + GameManager.instance.player.transform.forward.x * 20;
+    //    groundPos.z = GameManager.instance.player.transform.position.z + GameManager.instance.player.transform.forward.z * 20;
+    //    groundPos.y = GameManager.instance.player.transform.position.y;
+    //}
 
     private void OnDisable()
     {

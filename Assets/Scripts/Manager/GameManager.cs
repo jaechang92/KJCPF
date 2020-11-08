@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
     public GameObject lvUpEffect;
     public FollowCam mainCam;
     public GameObject boss;
+    public GameObject rayHitTarget;
 
     public IEnumerator MinimumWaitTime(float time)
     {
@@ -120,8 +121,9 @@ public class GameManager : MonoBehaviour
             if (!string.IsNullOrEmpty(UIManager.instance.quickSlots[pressKeyValuePairs[key]].option.option.itemName))
             {
                 GameObject tmp = Resources.Load<GameObject>("EffectsPrefab/" + UIManager.instance.quickSlots[pressKeyValuePairs[key]].option.option.itemName);
-                tmp.GetComponent<MeteoController>().SetGroundPos();
-                Instantiate(tmp, SkillTargetPosition + Vector3.up * 30 + Vector3.right * 25, Quaternion.identity);
+                tmp.GetComponent<EffectController>().SetPos();
+                Instantiate(tmp, SkillTargetPosition, Quaternion.Euler(player.transform.forward));
+                //Instantiate(tmp, SkillTargetPosition + Vector3.up * 30 + Vector3.right * 25, Quaternion.identity);
             }
         }
         else 

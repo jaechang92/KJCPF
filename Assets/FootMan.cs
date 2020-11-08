@@ -26,6 +26,9 @@ public class FootMan : MonoBehaviour
     void Update()
     {
         dist();
+
+
+
     }
 
     private void dist()
@@ -36,6 +39,12 @@ public class FootMan : MonoBehaviour
             {
                 HitEffect();
             }
+
+            //if (Input.GetKeyDown(KeyCode.Alpha1))
+            //{
+            //    HitEffect();
+            //}
+
         }
     }
 

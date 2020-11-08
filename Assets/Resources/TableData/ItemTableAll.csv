@@ -37,3 +37,4 @@ index,itemName,plusHp,plusMp,plusAttack,plusDefense,coolTime
 3035,Spell_Weapon,0,0,2,0,5
 3036,Spell_Astrostone,0,0,150,0,3
 3037,Spell_Blue_firework,0,0,80,0,1
+3038,Spell_Combo_knock,0,0,100,0,1

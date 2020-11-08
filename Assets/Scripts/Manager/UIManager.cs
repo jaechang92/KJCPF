@@ -463,6 +463,7 @@ public class UIManager : MonoBehaviour
             }
             uISlotsList[2].list[i].Icon.gameObject.SetActive(true);
             ItemInfo tmp = TableManager.instance.itemTable.FindItem(GameManager.instance.userInvenSlotInfo.quickSlotList[i]);
+            Debug.Log("스펠을 퀵슬롯에 놓을때 일어나는 일");
             uISlotsList[2].list[i].option.option.plusHp = tmp.plusHp;
             uISlotsList[2].list[i].option.option.plusMp = tmp.plusMp;
             uISlotsList[2].list[i].option.option.plusAttack = tmp.plusAttack;

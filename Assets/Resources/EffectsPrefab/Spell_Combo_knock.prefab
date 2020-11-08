@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6798993240072062968}
   - component: {fileID: 2391199284526684425}
   m_Layer: 0
-  m_Name: Spell_FireBall
+  m_Name: Spell_Combo_knock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d4717a2a3b17d24280f41cfc03c7285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundPos: {x: 33.4287, y: 0.49675494, z: 34.530415}
+  targetPos: {x: 0, y: 0, z: 0}
+  speed: 5
 --- !u!1001 &2270633103928498061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66,7 +69,7 @@ PrefabInstance:
     - target: {fileID: 6305853414408048855, guid: bf8e7c3038e03ce4fb7fd5c6f47710cb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.300001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6305853414408048855, guid: bf8e7c3038e03ce4fb7fd5c6f47710cb,
         type: 3}
@@ -146,7 +149,7 @@ PrefabInstance:
     - target: {fileID: 7821459906317219781, guid: 31420dc9a747b384ba38b238a73d5d3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.300001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821459906317219781, guid: 31420dc9a747b384ba38b238a73d5d3c,
         type: 3}
@@ -236,7 +239,7 @@ PrefabInstance:
     - target: {fileID: 3981069098905238676, guid: 1908002d8d98d3b4c891bc21575c8380,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3981069098905238676, guid: 1908002d8d98d3b4c891bc21575c8380,
         type: 3}
